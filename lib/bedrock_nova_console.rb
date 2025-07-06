@@ -9,8 +9,6 @@ class BedrockNovaConsole
       region: ENV['AWS_REGION'] || 'us-east-1'
     )
     @model_id = 'amazon.nova-lite-v1:0'
-    @max_tokens = 3000
-    @temperature = 0.7
   end
 
   def run
