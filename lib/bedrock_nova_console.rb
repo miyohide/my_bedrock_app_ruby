@@ -95,7 +95,8 @@ class BedrockNovaConsole
       if response.usage
         puts "\nUsage:"
         puts "  Input tokens: #{response.usage.input_tokens}"
-        puts "  Cache Read Input tokens: #{response.usage.cache_read_input_token_count}"
+        puts "  Cache Read Input tokens: #{response.usage.cache_read_input_tokens}"
+        puts "  Cache Write Input tokens: #{response.usage.cache_write_input_tokens}"
         puts "  Output tokens: #{response.usage.output_tokens}"
         puts "  Total tokens: #{response.usage.total_tokens}"
       end
