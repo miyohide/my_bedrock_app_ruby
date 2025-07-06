@@ -63,9 +63,9 @@ class BedrockNovaConsole
             content: [
               {
                 text: message,
-                cache_point: {
-                  type: "default"
-                }
+              },
+              cache_point: {
+                type: "default"
               }
             ]
           }
