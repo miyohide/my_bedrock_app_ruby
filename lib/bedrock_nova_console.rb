@@ -62,9 +62,7 @@ class BedrockNovaConsole
             role: "user",
             content: [
               {
-                text: message
-              },
-              {
+                text: message,
                 cachePoint: {
                   type: "default"
                 }
