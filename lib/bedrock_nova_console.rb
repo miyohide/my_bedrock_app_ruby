@@ -66,11 +66,7 @@ class BedrockNovaConsole
               }
             ]
           }
-        ],
-        inferenceConfig: {
-          maxTokens: @max_tokens,
-          temperature: @temperature
-        }
+        ]
       }
 
       response = @client.converse({
